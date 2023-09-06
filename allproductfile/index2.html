@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- --------------------- website logo --------------------- -->
+    <link rel="website icon" type="png" href="—Pngtree—two leaf_6555682.png">
+    <!-- --------------------- website logo --------------------- -->
+
+    <!-- --------------------- css file link --------------------- -->
+    <link rel="stylesheet" href="../style.css">
+    <!-- --------------------- css file link --------------------- -->
+
+    <!-- --------------------- icons cdn link --------------------- -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- --------------------- icons cdn link --------------------- -->
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <main>
+    <!-- ----------------------------- nav bar ------------------------- -->
+    <header>
+
+        <div class="logo">
+            <img src="../images/—Pngtree—two leaf_6555682.png" alt="">
+            <div>GRO<span>cery</span></div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#"><i class="ri-heart-line"></i></a></li>
+                <li><a href="#"><i class="ri-shopping-cart-2-line"></i></a></li>
+            </ul>
+
+            <div class="login-form">
+                <a href="#">Login</a>
+                <a href="#">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+    <!-- ----------------------------- nav bar ------------------------- -->
+
+
+
+
+
+
+            <!-- ----------------------------- section 1 ------------------------- -->
+            <section id="section1">
+                <div class="left-box">
+                    <h1>Order your <br>Dairy Groceries</h1>
+                    <h2>#FreeDelivery</h2>
+                    <div class="search-box">
+                        <span id="search-icon"><i class="ri-search-line"></i></span>
+                        <input type="text" placeholder="Search about your category">
+                        <button type="submit">Search</button>
+                    </div>
+                </div>
+                <div class="right-box">
+                    <img src="../images/pngwing.com (9).png" alt="">
+                </div>
+            </section>   
+            <!-- ----------------------------- section 1 ------------------------- -->
+
+
+
+
+
+
+
+            <!-- ----------------------------- section 2 ------------------------- -->
+            <section>
+                <div id="shortlist-product">
+                <div id="choise-products">
+                    <div>
+                        <input type="radio" id="all-product" name="product" checked>
+                        <label for="all-product">All Products</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="fruits" name="product">
+                        <label for="fruits">Fruits</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="vegetables" name="product">
+                        <label for="vegetables">Vegetables</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="meet" name="product">
+                        <label for="meet">Meet</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="beens" name="product">
+                        <label for="beens">Beens</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="ice-cream" name="product">
+                        <label for="ice-cream">Ice cream</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="our-sales" name="product">
+                        <label for="our-sales">Our sales</label>
+                    </div>
+
+                </div>
+
+
+                <div class="products-container">
+                    <div class="fruits-box">
+                        <div class="hearts" onclick="myFunction()">
+                            <i class="ri-heart-line black-heart"></i>
+                            <i class="ri-heart-fill red-heart" id="myDIV"></i>
+                        </div>
+                        <div class="img-fruit">
+                            <img src="../images/orange-png.png" alt="">
+                        </div>
+    
+                        <div class="order-box">
+                            <h4>Fresh Orange</h4>
+                            <p>$7.99/kg</p>
+                            <div class="quantity">
+                                <div class="button-value">
+                                    <button type="button" onclick="minus1()">-</button>
+                                    <span id="num1">1</span>
+                                    <button type="button" onclick="plus1()">+</button>
+                                </div>
+    
+                                <div class="shop-bag">
+                                    <svg width="20" height="20" fill="none" stroke="#fff" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10z">
+                                        </path>
+                                        <path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="fruits-box">
+                        <div class="hearts" onclick="myFunction()">
+                            <i class="ri-heart-line black-heart"></i>
+                            <i class="ri-heart-fill red-heart" id="myDIV"></i>
+                        </div>
+                        <div class="img-fruit">
+                            <img src="../images/orange-png.png" alt="">
+                        </div>
+    
+                        <div class="order-box">
+                            <h4>Fresh Orange</h4>
+                            <p>$7.99/kg</p>
+                            <div class="quantity">
+                                <div class="button-value">
+                                    <button type="button" onclick="minus1()">-</button>
+                                    <span id="num1">1</span>
+                                    <button type="button" onclick="plus1()">+</button>
+                                </div>
+    
+                                <div class="shop-bag">
+                                    <svg width="20" height="20" fill="none" stroke="#fff" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10z">
+                                        </path>
+                                        <path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="fruits-box">
+                        <div class="hearts" onclick="myFunction()">
+                            <i class="ri-heart-line black-heart"></i>
+                            <i class="ri-heart-fill red-heart" id="myDIV"></i>
+                        </div>
+                        <div class="img-fruit">
+                            <img src="../images/orange-png.png" alt="">
+                        </div>
+    
+                        <div class="order-box">
+                            <h4>Fresh Orange</h4>
+                            <p>$7.99/kg</p>
+                            <div class="quantity">
+                                <div class="button-value">
+                                    <button type="button" onclick="minus1()">-</button>
+                                    <span id="num1">1</span>
+                                    <button type="button" onclick="plus1()">+</button>
+                                </div>
+    
+                                <div class="shop-bag">
+                                    <svg width="20" height="20" fill="none" stroke="#fff" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10z">
+                                        </path>
+                                        <path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="fruits-box">
+                        <div class="hearts" onclick="myFunction()">
+                            <i class="ri-heart-line black-heart"></i>
+                            <i class="ri-heart-fill red-heart" id="myDIV"></i>
+                        </div>
+                        <div class="img-fruit">
+                            <img src="../images/orange-png.png" alt="">
+                        </div>
+    
+                        <div class="order-box">
+                            <h4>Fresh Orange</h4>
+                            <p>$7.99/kg</p>
+                            <div class="quantity">
+                                <div class="button-value">
+                                    <button type="button" onclick="minus1()">-</button>
+                                    <span id="num1">1</span>
+                                    <button type="button" onclick="plus1()">+</button>
+                                </div>
+    
+                                <div class="shop-bag">
+                                    <svg width="20" height="20" fill="none" stroke="#fff" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10z">
+                                        </path>
+                                        <path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="fruits-box">
+                        <div class="hearts" onclick="myFunction()">
+                            <i class="ri-heart-line black-heart"></i>
+                            <i class="ri-heart-fill red-heart" id="myDIV"></i>
+                        </div>
+                        <div class="img-fruit">
+                            <img src="../images/orange-png.png" alt="">
+                        </div>
+    
+                        <div class="order-box">
+                            <h4>Fresh Orange</h4>
+                            <p>$7.99/kg</p>
+                            <div class="quantity">
+                                <div class="button-value">
+                                    <button type="button" onclick="minus1()">-</button>
+                                    <span id="num1">1</span>
+                                    <button type="button" onclick="plus1()">+</button>
+                                </div>
+    
+                                <div class="shop-bag">
+                                    <svg width="20" height="20" fill="none" stroke="#fff" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10z">
+                                        </path>
+                                        <path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="fruits-box">
+                        <div class="hearts" onclick="myFunction()">
+                            <i class="ri-heart-line black-heart"></i>
+                            <i class="ri-heart-fill red-heart" id="myDIV"></i>
+                        </div>
+                        <div class="img-fruit">
+                            <img src="../images/orange-png.png" alt="">
+                        </div>
+    
+                        <div class="order-box">
+                            <h4>Fresh Orange</h4>
+                            <p>$7.99/kg</p>
+                            <div class="quantity">
+                                <div class="button-value">
+                                    <button type="button" onclick="minus1()">-</button>
+                                    <span id="num1">1</span>
+                                    <button type="button" onclick="plus1()">+</button>
+                                </div>
+    
+                                <div class="shop-bag">
+                                    <svg width="20" height="20" fill="none" stroke="#fff" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10z">
+                                        </path>
+                                        <path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="fruits-box">
+                        <div class="hearts" onclick="myFunction()">
+                            <i class="ri-heart-line black-heart"></i>
+                            <i class="ri-heart-fill red-heart" id="myDIV"></i>
+                        </div>
+                        <div class="img-fruit">
+                            <img src="../images/orange-png.png" alt="">
+                        </div>
+    
+                        <div class="order-box">
+                            <h4>Fresh Orange</h4>
+                            <p>$7.99/kg</p>
+                            <div class="quantity">
+                                <div class="button-value">
+                                    <button type="button" onclick="minus1()">-</button>
+                                    <span id="num1">1</span>
+                                    <button type="button" onclick="plus1()">+</button>
+                                </div>
+    
+                                <div class="shop-bag">
+                                    <svg width="20" height="20" fill="none" stroke="#fff" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10z">
+                                        </path>
+                                        <path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="fruits-box">
+                        <div class="hearts" onclick="myFunction()">
+                            <i class="ri-heart-line black-heart"></i>
+                            <i class="ri-heart-fill red-heart" id="myDIV"></i>
+                        </div>
+                        <div class="img-fruit">
+                            <img src="../images/orange-png.png" alt="">
+                        </div>
+    
+                        <div class="order-box">
+                            <h4>Fresh Orange</h4>
+                            <p>$7.99/kg</p>
+                            <div class="quantity">
+                                <div class="button-value">
+                                    <button type="button" onclick="minus1()">-</button>
+                                    <span id="num1">1</span>
+                                    <button type="button" onclick="plus1()">+</button>
+                                </div>
+    
+                                <div class="shop-bag">
+                                    <svg width="20" height="20" fill="none" stroke="#fff" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10z">
+                                        </path>
+                                        <path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="fruits-box">
+                        <div class="hearts" onclick="myFunction()">
+                            <i class="ri-heart-line black-heart"></i>
+                            <i class="ri-heart-fill red-heart" id="myDIV"></i>
+                        </div>
+                        <div class="img-fruit">
+                            <img src="../images/orange-png.png" alt="">
+                        </div>
+    
+                        <div class="order-box">
+                            <h4>Fresh Orange</h4>
+                            <p>$7.99/kg</p>
+                            <div class="quantity">
+                                <div class="button-value">
+                                    <button type="button" onclick="minus1()">-</button>
+                                    <span id="num1">1</span>
+                                    <button type="button" onclick="plus1()">+</button>
+                                </div>
+    
+                                <div class="shop-bag">
+                                    <svg width="20" height="20" fill="none" stroke="#fff" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10z">
+                                        </path>
+                                        <path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="fruits-box">
+                        <div class="hearts" onclick="myFunction()">
+                            <i class="ri-heart-line black-heart"></i>
+                            <i class="ri-heart-fill red-heart" id="myDIV"></i>
+                        </div>
+                        <div class="img-fruit">
+                            <img src="../images/orange-png.png" alt="">
+                        </div>
+    
+                        <div class="order-box">
+                            <h4>Fresh Orange</h4>
+                            <p>$7.99/kg</p>
+                            <div class="quantity">
+                                <div class="button-value">
+                                    <button type="button" onclick="minus1()">-</button>
+                                    <span id="num1">1</span>
+                                    <button type="button" onclick="plus1()">+</button>
+                                </div>
+    
+                                <div class="shop-bag">
+                                    <svg width="20" height="20" fill="none" stroke="#fff" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10z">
+                                        </path>
+                                        <path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="fruits-box">
+                        <div class="hearts" onclick="myFunction()">
+                            <i class="ri-heart-line black-heart"></i>
+                            <i class="ri-heart-fill red-heart" id="myDIV"></i>
+                        </div>
+                        <div class="img-fruit">
+                            <img src="../images/orange-png.png" alt="">
+                        </div>
+    
+                        <div class="order-box">
+                            <h4>Fresh Orange</h4>
+                            <p>$7.99/kg</p>
+                            <div class="quantity">
+                                <div class="button-value">
+                                    <button type="button" onclick="minus1()">-</button>
+                                    <span id="num1">1</span>
+                                    <button type="button" onclick="plus1()">+</button>
+                                </div>
+    
+                                <div class="shop-bag">
+                                    <svg width="20" height="20" fill="none" stroke="#fff" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10z">
+                                        </path>
+                                        <path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="fruits-box">
+                        <div class="hearts" onclick="myFunction()">
+                            <i class="ri-heart-line black-heart"></i>
+                            <i class="ri-heart-fill red-heart" id="myDIV"></i>
+                        </div>
+                        <div class="img-fruit">
+                            <img src="../images/orange-png.png" alt="">
+                        </div>
+    
+                        <div class="order-box">
+                            <h4>Fresh Orange</h4>
+                            <p>$7.99/kg</p>
+                            <div class="quantity">
+                                <div class="button-value">
+                                    <button type="button" onclick="minus1()">-</button>
+                                    <span id="num1">1</span>
+                                    <button type="button" onclick="plus1()">+</button>
+                                </div>
+    
+                                <div class="shop-bag">
+                                    <svg width="20" height="20" fill="none" stroke="#fff" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10z">
+                                        </path>
+                                        <path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="fruits-box">
+                        <div class="hearts" onclick="myFunction()">
+                            <i class="ri-heart-line black-heart"></i>
+                            <i class="ri-heart-fill red-heart" id="myDIV"></i>
+                        </div>
+                        <div class="img-fruit">
+                            <img src="../images/orange-png.png" alt="">
+                        </div>
+    
+                        <div class="order-box">
+                            <h4>Fresh Orange</h4>
+                            <p>$7.99/kg</p>
+                            <div class="quantity">
+                                <div class="button-value">
+                                    <button type="button" onclick="minus1()">-</button>
+                                    <span id="num1">1</span>
+                                    <button type="button" onclick="plus1()">+</button>
+                                </div>
+    
+                                <div class="shop-bag">
+                                    <svg width="20" height="20" fill="none" stroke="#fff" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10z">
+                                        </path>
+                                        <path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="fruits-box">
+                        <div class="hearts" onclick="myFunction()">
+                            <i class="ri-heart-line black-heart"></i>
+                            <i class="ri-heart-fill red-heart" id="myDIV"></i>
+                        </div>
+                        <div class="img-fruit">
+                            <img src="../images/orange-png.png" alt="">
+                        </div>
+    
+                        <div class="order-box">
+                            <h4>Fresh Orange</h4>
+                            <p>$7.99/kg</p>
+                            <div class="quantity">
+                                <div class="button-value">
+                                    <button type="button" onclick="minus1()">-</button>
+                                    <span id="num1">1</span>
+                                    <button type="button" onclick="plus1()">+</button>
+                                </div>
+    
+                                <div class="shop-bag">
+                                    <svg width="20" height="20" fill="none" stroke="#fff" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10z">
+                                        </path>
+                                        <path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="fruits-box">
+                        <div class="hearts" onclick="myFunction()">
+                            <i class="ri-heart-line black-heart"></i>
+                            <i class="ri-heart-fill red-heart" id="myDIV"></i>
+                        </div>
+                        <div class="img-fruit">
+                            <img src="../images/orange-png.png" alt="">
+                        </div>
+    
+                        <div class="order-box">
+                            <h4>Fresh Orange</h4>
+                            <p>$7.99/kg</p>
+                            <div class="quantity">
+                                <div class="button-value">
+                                    <button type="button" onclick="minus1()">-</button>
+                                    <span id="num1">1</span>
+                                    <button type="button" onclick="plus1()">+</button>
+                                </div>
+    
+                                <div class="shop-bag">
+                                    <svg width="20" height="20" fill="none" stroke="#fff" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10z">
+                                        </path>
+                                        <path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+                <div id="next-pages-container">
+                    <ul>
+                        <li><a href="index2.html" class="same-page"><i class="ri-arrow-left-line"></i></a></li>
+                        <li><a href="index2.html" id="one-page">1</a></li>
+                        <li><a href="index3.html" class="same-page">2</a></li>
+                        <li><a href="index4.html" class="same-page">3</a></li>
+                        <li><a href="index5.html" class="same-page">4</a></li>
+                        <li><a href="index3.html" class="same-page"><i class="ri-arrow-right-line"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+            <!-- ----------------------------- section 2 ------------------------- -->
+
+
+
+
+
+
+                 <!-- ----------------------------- footer ------------------------- -->
+        <footer id="footer-container">
+            <div id="logo-container">
+                <div id="footer-logo">
+                    <img src="../images/—Pngtree—two leaf_6555682.png" alt="">
+                    <p>GRO<span>cery</span></p>
+                </div>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias eos vitae, fugit neque sint laudantium.</p>
+
+                <div class="socalmedia-icons">
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                    <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                    <a href="#"><i class="ri-google-fill"></i></a>
+                </div>
+            </div>
+
+            <div id="Privacy-container">
+            <div>
+                <h3>About</h3>
+                <li><a href="#">Privacy & Security</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">For Business</a></li>
+                <li><a href="#">Support</a></li>
+            </div>
+
+            <div>
+                <h3>Delivery</h3>
+                <li><a href="#">Cart of Delivery</a></li>
+                <li><a href="#">Payment method</a></li>
+                <li><a href="#">Delivery Access</a></li>
+                <li><a href="#">Gifts</a></li>
+            </div>
+
+            <div>
+                <h3>Company</h3>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Mobile</a></li>
+            </div>
+        </div>
+        </footer>
+        <!-- ----------------------------- footer ------------------------- -->
+    
+    </main>
+</body>
+</html>

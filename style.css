@@ -1,0 +1,697 @@
+/* ----------------------- google font ------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Bebas+Neue&family=Cormorant+Garamond:wght@300;400;500;600;700&family=Phudu:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Ubuntu:wght@300&display=swap');
+/* ----------------------- google font ------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+:root {
+    --buttonbg: #6E9144;
+    --textColor: #000;
+    --secondaryTextColor: #fff;
+    --heroSectionBgColor: #E0F9D2;
+    --headerBgColor: #FBFBFB;
+    --boxBorder-Color: #F1F1F1;
+    --navfontsize: 16px;
+    --buttonpadding: 6px 14px;
+    --buttonredius: 5px;
+}
+
+
+
+/* ---------------------- nav bar ------------------------- */
+header {
+    width: 100%;
+    height: 5rem;
+    background: var(--headerBgColor);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4%;
+}
+
+div.logo {
+    display: flex;
+    align-items: end;
+    font-size: 18px;
+    font-weight: 800;
+    padding-bottom: 7px;
+}
+
+div.logo span {
+    color: var(--buttonbg);
+}
+
+div.logo img {
+    width: 2rem;
+    object-fit: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: var(--navfontsize);
+}
+
+nav ul li a {
+    color: var(--textColor);
+}
+
+#home {
+    color: var(--buttonbg);
+    font-weight: 800;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.login-form a:nth-child(2) {
+    background: var(--buttonbg);
+    color: var(--secondaryTextColor);
+    padding: var(--buttonpadding);
+    border-radius: var(--buttonredius);
+}
+
+.login-form a:nth-child(1) {
+    color: var(--textColor);
+}
+
+/* ---------------------- nav bar ------------------------- */
+
+
+
+
+
+
+/* ---------------------- section 1 ------------------------- */
+#section1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 7%;
+    background: var(--heroSectionBgColor);
+}
+
+#section1 .left-box h1 {
+    font-size: 40px;
+}
+
+#section1 .left-box h2 {
+    font-size: 40px;
+    color: var(--secondaryTextColor);
+    padding: 8px 0;
+}
+
+#section1 .search-box {
+    width: 100%;
+    background: var(--secondaryTextColor);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 2rem;
+    margin-top: 10px;
+}
+
+#section1 .search-box input {
+    width: 100%;
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+}
+
+#section1 .search-box button {
+    padding: 7px 17px;
+    border: none;
+    border-radius: 2rem;
+    background: var(--buttonbg);
+    cursor: pointer;
+    color: var(--secondaryTextColor);
+}
+
+#section1 .right-box img {
+    width: 100%;
+}
+
+#section1 .right-box {
+    width: 60%;
+    text-align: end;
+}
+
+/* ---------------------- section 1 ------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------- section 2 ------------------------- */
+#section2 .products-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 7%;
+}
+
+#section2 .products-box h2 {
+    font-size: 30px;
+}
+
+#section2 .products-box a {
+    padding: var(--buttonpadding);
+    background: var(--buttonbg);
+    color: var(--secondaryTextColor);
+    border-radius: 2rem;
+    text-decoration: none;
+}
+
+#section2 .fruits-box {
+    width: 15rem;
+    height: 15rem;
+    border: 2px solid var(--boxBorder-Color);
+    padding: 1rem;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+#section2 .hearts {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+#section2 .hearts i {
+    position: absolute;
+    right: -10px;
+    font-size: 22px;
+    top: 5px;
+}
+
+#section2 .hearts .red-heart{
+    color: red;
+    display: none;
+}
+
+
+
+#section2 .fruits-box img {
+    /* width: 9rem; */
+    height: 6rem;
+    object-fit: cover;
+}
+
+#section2 .fruits-box .img-fruit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+}
+
+#section2 .fruits-box .quantity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section2 .fruits-box h4 {
+    font-size: 22px;
+}
+
+#section2 .fruits-box p {
+    color: #F38324;
+    font-weight: 500;
+    padding: .2rem 0;
+}
+
+#section2 .fruits-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    padding-bottom: 3rem;
+}
+
+#section2 .button-value {
+    background: var(--secondaryTextColor);
+    border: 1px solid #707070;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 3px;
+    justify-content: space-between;
+    height: 1.5rem;
+}
+
+#section2 .button-value button {
+    font-size: 25px;
+    /* padding: 0 10px; */
+    background: transparent;
+    border: none;
+    width: 2rem;
+    display: grid;
+    place-items: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#section2 .button-value button:nth-child(1) {
+    height: 1.9rem;
+    padding-bottom: 6px;
+}
+
+
+
+#section2 .button-value span {
+    font-weight: 700;
+    /* padding: 0 5px; */
+    background: #cacaca;
+    display: inline-block;
+    height: 1.9rem;
+    width: 1.5rem;
+    display: grid;
+    place-items: center;
+}
+
+#section2 .shop-bag {
+    background: var(--buttonbg);
+    width: 2rem;
+    height: 2rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+
+
+
+
+
+/* ------------------- offer card --------------------- */
+.offer-container {
+    position: absolute;
+    overflow: hidden;
+    height: 4rem;
+    left: 0%;
+    top: 0;
+  }
+
+  .offer-container .box1 {
+    width: 3.5rem;
+    height: 8px;
+    background: #F38324;
+    transform: skew(-35deg);
+  }
+
+  .offer-container .box2 {
+    width: 3.5rem;
+    height: 8px;
+    background: #F38324;
+    transform: skew(35deg);
+  }
+
+  .offer-container #boxes {
+    position: relative;
+    left: -20px;
+    position: relative;
+    z-index: -1;
+    top: 35%;
+    height: 4rem;
+  }
+
+  .offer-container h5 {
+    position: relative;
+    z-index: 2436;
+    left: 8%;
+    top: -61%;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+
+/* ---------------------- section 2 ------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------- section 3 ------------------------- */
+#section3 {
+    background: var(--heroSectionBgColor);
+}
+
+
+#section3 .deals-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 7%;
+}
+
+#section3 .deal-box {
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem;
+    border-radius: 20px;
+    position: relative;
+    /* overflow: hidden; */
+    background: var(--secondaryTextColor);
+}
+
+#section3 h2 {
+    font-size: 30px;
+    padding: 4rem 0 0 7%;
+}
+
+#section3 .deal-box p {
+    color: #F38324;
+    font-weight: 500;
+    padding: .2rem 0;
+    font-size: 20px;
+}
+
+#section3 .deal-box img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#section3 .deal-box .img-fruit div {
+    width: 13rem;
+    height: 10rem;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+#section3 .deal-box .img-fruit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section3 .deal-box h4 {
+    font-size: 27px;
+}
+
+
+#section3 .deal-box .quantity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section3 .button-value {
+    background: var(--secondaryTextColor);
+    border: 1px solid #707070;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 3px;
+    justify-content: space-between;
+    /* height: 1.5rem; */
+}
+
+#section3 .button-value button {
+    font-size: 25px;
+    /* padding: 0 10px; */
+    background: transparent;
+    border: none;
+    width: 2rem;
+    display: grid;
+    place-items: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#section3 .button-value button:nth-child(1) {
+    height: 1.9rem;
+    padding-bottom: 6px;
+}
+
+
+
+#section3 .button-value span {
+    font-weight: 700;
+    /* padding: 0 5px; */
+    background: #cacaca;
+    display: inline-block;
+    height: 1.9rem;
+    width: 1.5rem;
+    display: grid;
+    place-items: center;
+}
+
+#section3 .shop-bag {
+    background: var(--buttonbg);
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+
+
+#section3 .hearts {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+#section3 .hearts i {
+    position: absolute;
+    right: -10px;
+    font-size: 27px;
+    top: 5px;
+}
+
+#section3 .hearts .red-heart{
+    color: red;
+    display: none;
+}
+/* ---------------------- section 3 ------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------- section 4 ------------------------- */
+#section4 {
+    width: 100%;
+    padding: 2rem 9%;
+}
+
+#section4 h2 {
+    font-size: 30px;
+    padding: 2rem 0;
+}
+
+#section4 .clients-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#section4 .clients-container .client-box {
+    width: 17rem;
+    height: 17rem;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    padding: 2rem 1rem 2rem 2rem;
+}
+
+#section4 .client-img-box .img {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#section4 .client-img-box .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#section4 .client-img-box {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#section4 .clients-container p {
+    padding-top: 2.3rem;
+    line-height: 24px;
+    font-size: 15px;
+}
+
+.client-rating h4 {
+    font-size: 20px;
+    line-height: 27px;
+}
+
+#section4 .fill-rate {
+    color: var(--buttonbg);
+}
+
+#section4 .no-fill-rate {
+    color: #c9c9c9;
+}
+/* ---------------------- section 4 ------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------- footer ------------------------- */
+footer {
+    background: var(--heroSectionBgColor);
+    padding: 3rem 0;
+    margin-top: 3rem;
+}
+
+
+footer #footer-logo img {
+    width: 2.5rem;
+}
+
+footer #footer-logo {
+    display: flex;
+    align-items: start;
+    font-weight: 800;
+}
+
+footer #footer-logo p span {
+    color: var(--buttonbg);
+}
+
+#footer-container {
+    display: flex;
+    padding: 4rem 5%;
+}
+
+#Privacy-container {
+    display: flex;
+    gap: 5rem;
+}
+
+#Privacy-container li {
+    list-style: none;
+    padding: 0.5rem 0;
+}
+
+#Privacy-container li a {
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+
+#logo-container p {
+    width: 60%;
+    padding: 1rem 0;
+    line-height: 27px;
+}
+
+#logo-container {
+    width: 44%;
+}
+
+
+.socalmedia-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.socalmedia-icons a {
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.socalmedia-icons a:nth-child(1) {
+    color: #c05757;
+}
+
+.socalmedia-icons a:nth-child(2) {
+    color: #2684be;
+}
+
+.socalmedia-icons a:nth-child(3) {
+    color: #355bbb;
+}
+
+.socalmedia-icons a:nth-child(4) {
+    color: #4264b8;
+}
+/* ---------------------- footer ------------------------- */
